@@ -38,12 +38,18 @@ footer:
   social: Sur le web
   credits: Credits
 
+exclude:
+  - .history
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/m_berthome
   - title: github
     url: http://github.com/rienafairefr
+  - title: file
+    tooltip: CV
+    url: https://rienafairefr.github.io/resume/fr/
 
 # Postal address (add as many lines as necessary)
 address:

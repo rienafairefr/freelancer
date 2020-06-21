@@ -17,7 +17,7 @@
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                <a href="{{ network.url }}" class="btn-social btn-outline"{%if network.tooltip%} data-toggle="tooltip" title="{{network.tooltip}}"{% endif %}><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
 		                    {% endfor %}
                         </ul>
